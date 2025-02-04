@@ -94,6 +94,9 @@ margin: auto;
     text-align: center;
     color:#413960;
     font-size: 2.25rem;
+    margin-top: 100px;
+    margin-bottom:-100px;
+    
 }
 .section-title-testimornial{
     text-align: center;
@@ -104,30 +107,27 @@ margin: auto;
 width: 331px;
 height: 234px;
 margin-top: 20px;
-margin-left: 20px;
+margin-left: auto;
 
 }
-.course-card h3{
-    margin-left: 20px;
-}
-.course-card p{
-    margin-left: 20px;
-}
-.course-card button{
-    margin-left: 20px;
-}
+
 .course-card-container{
     /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
-    width: 80%;
-    margin: auto;
+    margin: 150px;
 }
 .course-card{
-    background-color: #FFFFFF;
-    width: 370PX;
+    box-shadow: 2px 2px 10px gray;
+    background-color: #F8FFFB;
+    width: 350PX;
     height: 483PX;
     border-radius: 10PX;
+    margin-right: 85px;
+    padding:10px;
+}
+.course-card:hover{
+    background-image:linear-gradient(185deg,#ffffff, #d1cbcb);
 }
 .flex-div{
     display: flex;
@@ -153,9 +153,10 @@ margin-left: 20px;
     width: 120px;
     height: 120px;
 }
+/* footer */
 footer{
     background-color:#282531 ;
-    width: 1465px;
+    width: auto;
     height: 370px;
 }
 .footer-column-container{
